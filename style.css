@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 251, 251);
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFF;
+  /* font-weight: bold; */
+}
+
+article {
+  display: inline-block;
+  width: 585px;
+  height: 365px;
+  margin: 0.5%;
+  border-radius: 5px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  padding: 4em 4em;
+}
+
+article:nth-child(3n+1){
+  background: rgb(254,192,155);
+  background: linear-gradient(90deg, rgba(254,192,155,1) 0%, rgba(254,138,151,1) 100%);
+}
+
+article:nth-child(3n+2){
+  background: rgb(140,201,248);
+  background: linear-gradient(90deg, rgba(140,201,248,1) 0%, rgba(4,134,223,1) 100%);
+  margin: 0.5% 3%;
+}
+
+article:nth-child(3n+3){
+  background: rgb(132,215,182);
+  background: linear-gradient(90deg, rgba(132,215,182,1) 0%, rgba(49,216,190,1) 100%);
+}
+
+.round, .round2 {
+  display: inline-block;
+  background-color: white;
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+  opacity: 20%; 
+}
+
+.round {
+  position: absolute;
+  left: 70%;
+  bottom: 20%
+}
+
+.round2 {
+  position: absolute;
+  left: 50%;
+  top: 53%
+}
+
+.main-content {
+  display: inline-block;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 400;
+  margin: 5px 0;
+  position:relative;
+}
+
+.number {
+  font-size: 50px;
+  font-weight: 500;
+  padding: 25px 0 85px 0;
+}
+
+.percentages{
+  font-size: 25px;
+  font-weight: 500;
+}
