@@ -8,7 +8,6 @@ body {
   background-color: rgb(255, 251, 251);
   font-family: 'Ubuntu', sans-serif;
   color: #FFF;
-  /* font-weight: bold; */
 }
 
 article {
@@ -69,6 +68,24 @@ h2{
   font-weight: 400;
   margin: 5px 0;
   position:relative;
+}
+
+article:nth-child(3n+1)>h2::after {
+  content: url(./img/chart-line.svg);
+  position: absolute;
+  right: 0px;
+}
+
+article:nth-child(3n+2)>h2::after {
+  content: url(./img/bookmark-outline.svg);
+  position: absolute;
+  right: 0px;
+}
+
+article:nth-child(3n+3)>h2::after {
+  content: url(./img/diamond.svg);
+  position: absolute;
+  right: 0px;
 }
 
 .number {
